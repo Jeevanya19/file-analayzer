@@ -1,0 +1,56 @@
+
+# Log File Analyzer
+
+## Description
+A Python program that reads server log files and analyzes
+server requests, error responses, IP addresses, and endpoints.
+
+## Objective
+To understand file handling, string processing, dictionaries,
+regular expressions, and data analysis using Python.
+
+## Features
+- Counts total server requests.
+- Identifies error responses (status codes 400 and above).
+- Displays the top 5 IP addresses.
+- Finds the most frequently requested endpoints.
+- Handles malformed log lines.
+- Displays a summary report.
+
+## Technologies Used
+- Python
+- Regular Expressions (re module)
+- Collections (Counter)
+- Text File Handling
+
+## Project Files
+- log_analyzer.py
+- server.log
+- README.md
+
+## How to Run
+
+1. Install Python.
+2. Keep log_analyzer.py and server.log in the same folder.
+3. Open the terminal in that folder.
+4. Run:
+
+   python log_analyzer.py
+
+## Sample Output
+
+Total Requests: 10
+Error Responses: 3
+Malformed Lines: 1
+
+Top IP Addresses:
+192.168.1.10 : 4 requests
+
+Most Requested Endpoints:
+/home : 3 requests
+
+## Learning Outcome
+Learned how to read and process server logs,
+extract information using regular expressions,
+use Counter for frequency analysis, and handle
+invalid data safely.
